@@ -14,7 +14,7 @@ int main() {
 
     i = 0;
 
-    while ((c = getchar()) != EOF) {
+    while (i < MAX && (c = getchar()) != EOF) {
         if (c == '\n') {
             s[i] = '\0';
             expand(s, t);
