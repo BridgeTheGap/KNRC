@@ -1,6 +1,6 @@
 #include <ctype.h>
 
-/* ati: convert s to integer; version 2 */
+/* atoi: convert s to integer; version 2 */
 int atoi(char s[]) {
     int i, n, sign;
 
